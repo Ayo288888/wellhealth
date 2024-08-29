@@ -1,0 +1,139 @@
+/* Global Styles */
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6em;
+  min-height: 100vh;
+  display: flex; /* Add this */
+  flex-direction: column; /* Add this */
+}
+
+.wellhealth-page {
+  min-height: 100vh;
+  height: 100%;
+  display: flex; /* Add this */
+  flex-direction: column; /* Add this */
+  padding: 60px 20px;
+  text-align: left;
+  background-color: #F7F7F7;
+}
+
+/* About Us Section */
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  text-align: left;
+}
+
+.about-us-text {
+  width: 50%;
+  font-size: large;
+  padding-right: 20px;
+}
+
+.about-us h2 {
+  font-size: 2em;
+  color: #5E239D;
+}
+
+.about-us-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  width: 30%;
+}
+
+.about-us-images img {
+  width: 45%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.about-us-images img:hover {
+  transform: scale(1.05);
+}
+
+/* Projects Section */
+.projects {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #5E239D;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  width: 250px;
+  background-color: #FFFFFF;
+  text-align: left;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+  width: 100%;
+  border-bottom: 2px solid #E5E5E5;
+}
+
+.project-info {
+  padding: 15px;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: #770172;
+  color: white;
+  padding: 40px 20px;
+  flex-grow: 1; /* Add this */
+}
+  
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1; /* Add this */
+}
+  
+  .footer-info, .footer-nav {
+    width: 45%;
+  }
+  
+  .footer-nav nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #E5E5E5;
+    padding-top: 10px;
+  }
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1; /* Add this */
+}

@@ -1,0 +1,79 @@
+.hero {
+  position: relative;
+  min-height: 100vh; /* changed to 100vh for a full-screen hero */
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Space Grotesk', sans-serif;
+  background-image: linear-gradient(to bottom, #770172, #3a0036); /* added a gradient background */
+}
+
+.heroBackground {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5; /* added opacity to make the background image subtle */
+}
+
+.heroContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20vh 80px 10vh; /* changed padding to use viewport units */
+  background-color: rgba(119, 1, 114, 0.25);
+  border-radius: 20px; /* added border-radius for a modern look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* added box-shadow for depth */
+}
+
+.heroTitle {
+  font: 700 120px 'Space Grotesk', sans-serif; /* increased font size */
+  text-align: center;
+  letter-spacing: 2px; /* reduced letter spacing for better readability */
+  margin-bottom: 10px; /* reduced margin-bottom */
+}
+
+.heroSubtitle {
+  font: 700 48px 'Space Grotesk', sans-serif; /* increased font size */
+  text-align: center;
+  letter-spacing: 1px; /* reduced letter spacing for better readability */
+  margin-bottom: 20px; /* increased margin-bottom */
+}
+
+.joinButton {
+  padding: 12px 20px;
+  border-radius: 50px;
+  background-color: #770172;
+  color: #fff;
+  font: 700 48px/1 'Space Grotesk', sans-serif; /* increased font size */
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out; /* added transition for hover effect */
+}
+
+.joinButton:hover {
+  background-color: #9c007a; /* added hover effect */
+}
+
+@media (max-width: 991px) {
+  .hero {
+    max-width: 100%;
+  }
+
+  .heroContent {
+    padding: 10vh 20px 5vh;
+  }
+
+  .heroTitle {
+    font-size: 80px;
+  }
+
+  .heroSubtitle {
+    font-size: 36px;
+  }
+
+  .joinButton {
+    margin-top: 10px; /* reduced margin-top */
+  }
+}

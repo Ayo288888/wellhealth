@@ -1,0 +1,114 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.services-page {
+  width: 100vw;
+  font-family: 'Space Grotesk', sans-serif;
+  color: #4E1C85;
+  text-align: center;
+}
+
+.services-intro {
+  padding: 50px 20px;
+  background-color: #F8F9FA;
+}
+
+.services-intro h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.services-intro p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.expert-guidance {
+  padding: 50px 20px;
+}
+
+.guidance-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+}
+
+.guidance-card {
+  background-color: #faf9f8;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  width: 300px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.guidance-card img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.guidance-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.statistics {
+  background-color: #F3EAF7;
+  padding: 50px 20px;
+}
+
+.statistics-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  width: 200px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #770172;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-info,
+.footer-nav {
+  margin-bottom: 20px;
+}
+
+.footer-nav nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+.expert-guidance {
+  padding: 50px 20px;
+  background-color: #ffffff; /* add this line */
+}
